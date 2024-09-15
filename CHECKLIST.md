@@ -1,0 +1,4 @@
+- the error boundary component prevents the error from bubbling up to the top level
+- the error boundary component renders the #error slot when an error is caught
+- the error boundary component provides a function `clearError` to the error slot
+- the error boundary component provide the error to the error slot
